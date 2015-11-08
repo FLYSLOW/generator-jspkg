@@ -1,0 +1,45 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "keywords": <%- JSON.stringify(keywords) %>,
+  "scripts": {},
+  "config": {},
+  "main": "<%= main %>",
+  "bin": {},
+  "files": [],
+  "directories": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "bundledDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "os": [],
+  "cpu": [],
+  "private": <%= private %>,
+  "publishConfig": {},
+  "license": "<%= license %>",
+  "homepage": "<%= homepage %>",
+  "repository": {
+    "type": "git",
+    "url": "<%= repository %>"
+  },
+  "man": "<%= repository %>",
+  "bugs": {
+    "url": "<%= repository %>",
+    "email": "<%= author.email %>"
+  },
+  "author": {
+    "name": "<%= author.name %>",
+    "email": "<%= author.email %>",
+    "url": "<%= author.url %>"
+  },
+  "contributors": [{
+    "name": "<%= author.name %>",
+    "email": "<%= author.email %>",
+    "url": "<%= author.url %>"
+  }]
+}
